@@ -4,9 +4,6 @@ function checker() {
     let email_check = new RegExp(/^[\w\d]*[\.]?[\w\d]*[@][\w]+[\.][\w]+$/);
     let password_check = new RegExp(/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{6,}$/);
 
-    function style(rog, section) {
-        document.querySelectorAll('.warning').style.listStyle = "none";
-    }
 
     // USERNAME SECTION
     let inputusername = document.querySelector('#username').value;
